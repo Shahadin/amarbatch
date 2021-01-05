@@ -3,7 +3,7 @@ var extra = require('../routes/extra');
 var user = require('../routes/users');
 var student = require('../routes/Student');
 var exam = require('../routes/exam');
-var ac = require('../routes');
+var ac = require('../routes/Achivement');
 module.exports = app => {
 
     app.use('/', indexRouter);
